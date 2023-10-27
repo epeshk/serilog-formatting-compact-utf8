@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Formatting.Compact.Utf8", "src\Serilog.Formatting.Compact.Utf8\Serilog.Formatting.Compact.Utf8.csproj", "{AF75C0F8-D060-4F08-86BF-043B1986E034}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Formatting.Compact.Utf8.Benchmarks", "tests\Serilog.Formatting.Compact.Utf8.Benchmarks\Serilog.Formatting.Compact.Utf8.Benchmarks.csproj", "{003D396D-F503-4587-B158-E2581D993952}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Formatting.Compact.Tests", "tests\Serilog.Formatting.Compact.Utf8.Tests\Serilog.Formatting.Compact.Tests.csproj", "{79E216F0-E62F-4CED-8CEF-A451348C6332}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CD2C1FFD-81B8-4101-B81F-0CD5476A7A50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF75C0F8-D060-4F08-86BF-043B1986E034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF75C0F8-D060-4F08-86BF-043B1986E034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF75C0F8-D060-4F08-86BF-043B1986E034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF75C0F8-D060-4F08-86BF-043B1986E034}.Release|Any CPU.Build.0 = Release|Any CPU
+		{003D396D-F503-4587-B158-E2581D993952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{003D396D-F503-4587-B158-E2581D993952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{003D396D-F503-4587-B158-E2581D993952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{003D396D-F503-4587-B158-E2581D993952}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79E216F0-E62F-4CED-8CEF-A451348C6332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79E216F0-E62F-4CED-8CEF-A451348C6332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79E216F0-E62F-4CED-8CEF-A451348C6332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79E216F0-E62F-4CED-8CEF-A451348C6332}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{79E216F0-E62F-4CED-8CEF-A451348C6332} = {CD2C1FFD-81B8-4101-B81F-0CD5476A7A50}
+		{003D396D-F503-4587-B158-E2581D993952} = {CD2C1FFD-81B8-4101-B81F-0CD5476A7A50}
+	EndGlobalSection
+EndGlobal
